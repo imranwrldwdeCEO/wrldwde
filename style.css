@@ -35,6 +35,18 @@ header h1 {
 .gallery-item img:hover {
     transform: scale(1.05); /* Zoom effect on hover */
 }
+.gallery {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 12px; /* Smoothes the corners */
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3); /* Adds a premium depth */
+}
 .links a:hover {
     background: white;
     color: black;
